@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Cakes | Candi's Cake Creations</title>
+  <meta name="description" content="Custom birthday cakes in Cedar Rapids, IA for every age and theme. From smash cakes to sculpted designs, we bake it fresh for the big day.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo" aria-label="Candi's Cake Creations home">
+        <img src="images/logo.jpg" alt="Candi's Cake Creations">
+      </a>
+      <button class="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="weddings.html">Weddings &amp; Anniversaries</a></li>
+        <li><a href="birthdays.html">Birthdays</a></li>
+        <li><a href="cupcakes.html">Cupcakes</a></li>
+        <li><a href="specialty.html">Specialty Creations</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== Page Header ===== -->
+  <header class="page-header">
+    <h1>Birthday Cakes</h1>
+    <p>Fun, colorful, and themed cakes for birthdays of every age.</p>
+  </header>
+
+  <!-- ===== Intro ===== -->
+  <section>
+    <div class="container" style="max-width:900px; text-align:center;">
+      <h2 class="section-title">Made for the Guest of Honor</h2>
+      <p style="font-size:1.1rem; color:var(--muted);">
+        Whether it's a first birthday smash cake, a sculpted character cake for the kids, or an elegant milestone
+        cake for the grown-ups, we design every birthday cake around the birthday person's favorite colors, characters,
+        and flavors.
+      </p>
+      <br>
+      <a href="index.html#contact" class="btn">Order a Birthday Cake</a>
+    </div>
+  </section>
+
+  <!-- ===== Gallery ===== -->
+  <section style="background:#fff;">
+    <div class="container">
+      <h2 class="section-title">Gallery</h2>
+      <p class="section-subtitle">Click any photo to view it larger.</p>
+
+      <div class="gallery">
+        <div class="gallery-item" data-caption="Split-theme cake: witch and princess sides for Gracie">
+          <img src="images/birthdays/birthday-1.jpg" alt="Half-and-half witch and princess themed birthday cake for Gracie">
+        </div>
+        <div class="gallery-item" data-caption="Two-tier split cake: Frozen and Spider-Man for siblings">
+          <img src="images/birthdays/birthday-2.jpg" alt="Frozen and Spider-Man split-theme birthday cake with number toppers">
+        </div>
+        <div class="gallery-item" data-caption="Pastel rainbow unicorn cake with gold horn">
+          <img src="images/birthdays/birthday-3.jpg" alt="Pastel rainbow unicorn birthday cake with buttercream rosettes">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Lightbox ===== -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+    <img id="lightbox-img" src="" alt="Enlarged cake photo">
+  </div>
+
+  <!-- ===== CTA ===== -->
+  <section class="reviews-section">
+    <div class="container" style="text-align:center;">
+      <h2 class="section-title">Have a Theme in Mind?</h2>
+      <p class="section-subtitle">Send us your ideas: colors, characters, flavors, and we'll bring them to life.</p>
+      <a href="index.html#contact" class="btn btn-gold">Contact Candi</a>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Candi's Cake Creations</h4>
+        <p>Custom cakes, cupcakes, and cake balls baked with love in Cedar Rapids, Iowa.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="weddings.html">Weddings &amp; Anniversaries</a>
+        <a href="birthdays.html">Birthdays</a>
+        <a href="cupcakes.html">Cupcakes</a>
+        <a href="specialty.html">Specialty Creations</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="tel:+13195519475">(319) 551-9475</a>
+        <a href="mailto:cjdavidson77@hotmail.com">cjdavidson77@hotmail.com</a>
+        <a href="https://www.instagram.com/candiscakecreations" target="_blank" rel="noopener">Instagram</a>
+        <a href="http://www.facebook.com/candiscakecreations" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span id="year">2026</span> Candi's Cake Creations. All rights reserved.
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="script.js"></script>
+</body>
+</html>
